@@ -1,0 +1,1 @@
+console.log("'Allo 'Allo!"),$(document).ready(function(){"use strict";$(".tab-panels .tabs li").on("click",function(){function a(){$(this).removeClass("on"),$("#"+c).slideDown(300,function(){$(this).addClass("on")})}var b=$(this).closest(".tab-panels");b.find(".tabs li.on").removeClass("on"),$(this).addClass("on");var c=$(this).attr("rel");b.find(".panel.on").slideUp(300,a)})});
